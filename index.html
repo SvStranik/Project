@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <meta charset="utf-8">
+        <title>Уроки программирования</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>Уроки программирования</h1>
@@ -32,7 +34,40 @@
                         <a href="https://developer.mozilla.org/ru/docs/Web/HTML/Element/button" target="_blank">
                             Teg кнопки
                         </a></li></ul></p>
-                <li>Теги таблиц</li>
+            <li>Теги таблиц</li><p><ul>
+                    <li>
+                        <a href="https://developer.mozilla.org/ru/docs/Learn/HTML/Tables/Basics" target="_blank">
+                            HTML таблицы основы
+                        </a></li></ul></p>   
+            <li>Служебные теги</li>    
         </ol>
-    </body>
+        
+
+        <table border="1" width="50%" cellpadding="3" cellspacing="5">
+            <thead>
+                <tr><th colspan="2">Теги таблиц</th></tr>
+            </thead>
+            <tbody>
+                <tr><td> -table- -/table- </td><td> Создание таблицы</td></tr>
+                <tr><td> -thead- -/thead- </td><td>Создание таблицы</td></tr>
+                <tr><td> -th colspan="2"- -/th- </tр><td>Создание зоголовка и кол-во занятых ячеек</td></tr> 
+                <tr><td> -tr- -/tr- </td><td>Создание строки</td></tr>
+                <tr><td> -td- -/td- </td><td>Создание столбца</td></tr>  
+                <tr><td> border="1" </td><td>Ширина рамок</td></tr> 
+                <tr><td> width="50%" </td><td>Размер</td></tr>
+                <tr><td> cellpadding="10" </td><td>Задает ширину ячейки в нутри</td></tr>
+                <tr><td> cellspacing="10" </td><td>Задает ширину между ячейками</td></tr>
+                <tr><td> -tfoot- -/tfoot- </td><td>Создание сноски</td></tr>
+            </tbody>
+            <thead>
+                <tr><th colspan="2">Служебные теги</th></tr>
+            </thead>
+            <tbody>
+                <tr><td> -meta- </td><td> Создаем в секции HEAD</td></tr>
+                <tr><td> charset="utf-8" </td><td>Какая используется кодировка</td></tr>
+                <tr><td> -title- Текст -/title- </td><td>Отображение текста в кладке</td></tr>
+                <tr><td> -link rel="stylesheet" href="style.css"- </td><td>Подключение файлов CSS</td></tr>
+            </tbody>
+        </table>
+    </body> 
 </html>
