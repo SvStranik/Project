@@ -1,3 +1,19 @@
+html {
+    font-size: 16px;
+}
+p {
+    font-size: 1rem;
+}
 body {
-    background-color: #c3e0b8;
+    background-color: #d1e7c9;
+}
+h1 {
+    background-color: rgb(123, 221, 31); 
+    color: rgb(44, 5, 5);
+    font-style: italic;
+    font-size: 46px;
+    width: 100%;
+}
+.course-programm {
+    /* color: rgb(139, 162, 224) */
 }
