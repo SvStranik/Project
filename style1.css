@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    background-color: rgb(186, 230, 238);
+    
+
+}
+strong {
+    font-weight: bold;
+}
+em {
+    font-style: italic;
+}
+blockquote {
+    text-align: right;
+    
+}
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    letter-spacing: 23px;
+    text-transform: uppercase;
+    text-shadow: 0 5px 5px red;
+    background-color: rgba(212, 112, 18, 0.5);
+    background-image: url(foto.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+a {
+    text-decoration: none;
+}
+p {
+    text-indent: 30px;
+    white-space: wrap;
+    word-spacing: unset;
+        
