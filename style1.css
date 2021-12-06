@@ -36,4 +36,17 @@ p {
     text-indent: 30px;
     white-space: wrap;
     word-spacing: unset;
-        
+}
+.block-model {
+    box-sizing: content-box;
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    margin: 10px;   /*отступ фигуры со всех сторон */
+    padding: 20px; /*отступ для контента от сторон */
+    border-top: 10px solid #666;
+    border-right: 10px solid rgb(209, 14, 14);
+    border-left: 10px dashed rgb(25, 89, 207);
+    border-bottom: 10px solid rgb(181, 184, 19);
+    border-radius: 10px;
+}
