@@ -69,9 +69,25 @@
         
         <div>
             <h3>Блочная модель</h3>
-            <div class="block-model"> </div>
+            <div class="block-model"> </div>                
+        </div>
+        <div>
+            <h3>Позиционирование</h3>
+            <h4>Float</h4>
+            <img src="Dog.jpeg" width="300" style="float: left;" alt="Собака">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, ratione pariatur quia itaque autem nisi tempore voluptatibus accusantium, error in quasi laborum earum perferendis! Quam neque tempora similique maiores ea?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, odio, officiis cum tempore hic voluptates consequatur rerum animi alias ab consequuntur minima! Consectetur a magnam officia est aliquam inventore culpa?</p>
+        </div>
+        <div class="position-scene">
+            <h4>Position</h4>
+            <div>Static </div>
+            <div style="position: relative; background: rgb(206, 240, 14);">
+                Relative (пример полного наложения Absolute на Relative (z-index: -1 нижний слой 1 верхний слой))
+                <div style="position: absolute; top: 15px; right: 0; bottom: 0; left: 0; background: red; z-index: 1;">Absolute</div>
+            </div>
             
-                
+            <div style="position: fixed;background: rgb(243, 88, 88);top: 0;left: 0;right: 0;height: 50px;opacity: 0.50;">Fixed</div>
+
         </div>
     </body>
 </html>
